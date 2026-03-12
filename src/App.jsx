@@ -507,11 +507,11 @@ export default function App() {
                     </div>
 
                     <p className="mb-2">
-                      <strong>{plan.channels}</strong> canal(is)
+                        <strong>{plan.channels}</strong> {plan.channels === 1 ? "canal" : "canais"}
                     </p>
 
                     <p className="mb-4">
-                      <strong>{plan.users}</strong> usuário(s)
+                        <strong>{plan.users}</strong> {plan.users === 1 ? "usuário" : "usuários"}
                     </p>
 
                     <a
