@@ -1,4 +1,4 @@
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/vba_logo_inline_com-icone_branco.png";
 
 export default function Hero() {
   return (
