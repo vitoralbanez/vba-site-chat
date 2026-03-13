@@ -14,7 +14,7 @@ export default function Contact() {
 
           <div className="d-flex justify-content-center gap-3 flex-wrap">
             <a
-              href="https://wa.me/5500000000000"
+              href="https://wa.me/5518996076660"
               className="btn btn-success btn-lg"
               target="_blank"
               rel="noreferrer"
