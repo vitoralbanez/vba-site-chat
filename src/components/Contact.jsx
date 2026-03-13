@@ -23,7 +23,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="mailto:contato@vbasolutions.com.br"
+              href="mailto:vitor.albanez@vbasolutions.com.br"
               className="btn btn-outline-dark btn-lg"
             >
               E-mail
