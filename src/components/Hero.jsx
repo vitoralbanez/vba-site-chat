@@ -20,7 +20,7 @@ export default function Hero() {
 
             <div className="d-flex gap-3 flex-wrap">
               <a
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/5518996076660"
                 className="btn btn-primary btn-lg"
                 target="_blank"
                 rel="noreferrer"
