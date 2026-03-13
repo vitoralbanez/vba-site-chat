@@ -1,4 +1,4 @@
-import logo from "../assets/images/vba_logo_inline_com-icone_preto.png";
+import logo from "../assets/images/vba_logo_inline_com-icone.png";
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
