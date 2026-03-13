@@ -6,7 +6,7 @@ export default function Footer() {
         <p className="mb-1 text-muted">
           Tecnologia, infraestrutura e comunicação empresarial
         </p>
-        <p className="mb-1 text-muted">contato@vbasolutions.com.br</p>
+        <p className="mb-1 text-muted">vitor.albanez@vbasolutions.com.br</p>
         <p className="mb-0 text-muted">
           © 2026 VBA Solutions. Todos os direitos reservados.
         </p>
