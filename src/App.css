@@ -1,1 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  color: #1f1f1f;
+  background-color: #ffffff;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+.navbar-brand {
+  letter-spacing: 0.3px;
+}
+
+.hero-section {
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.hero-badge,
+.section-tag {
+  background: rgba(13, 110, 253, 0.1);
+  color: #0d6efd;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.section-text {
+  max-width: 760px;
+}
+
+.hero-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 32px;
+  border: 1px solid #ececec;
+}
+
+.hero-list {
+  display: grid;
+  gap: 12px;
+}
+
+.hero-list-item {
+  background: #f8f9fa;
+  border: 1px solid #ececec;
+  border-radius: 14px;
+  padding: 14px 16px;
+  font-weight: 500;
+}
+
+.service-card,
+.comm-card {
+  border-radius: 22px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover,
+.comm-card:hover {
+  transform: translateY(-4px);
+}
+
+.service-icon {
+  font-size: 2rem;
+}
+
+.price-tag {
+  display: inline-block;
+  background: #0d6efd;
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.client-logo-box {
+  min-height: 220px;
+  border-radius: 22px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ececec;
+}
+
+.client-logo {
+  max-width: 100%;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.contact-section {
+  background: #ffffff;
+}
+
+.contact-box {
+  background: #f8f9fa;
+  border: 1px solid #ececec;
+  border-radius: 24px;
+  padding: 48px 24px;
+}
+
+.footer-section {
+  background: #111111;
+}
+
+.footer-section h5,
+.footer-section p {
+  color: #ffffff;
+}
+
+.footer-section .text-muted {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.btn {
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .hero-card {
+    padding: 24px;
+  }
+
+  .contact-box {
+    padding: 36px 20px;
+  }
+
+  .client-logo-box {
+    min-height: 180px;
+  }
+
+  .client-logo {
+    max-height: 120px;
+  }
+}
