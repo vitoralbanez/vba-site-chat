@@ -47,7 +47,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item ms-lg-3 mt-3 mt-lg-0">
               <a
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/5518996076660"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
