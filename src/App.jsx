@@ -97,11 +97,12 @@ const steps = [
 ];
 
 const clientLogos = [
+  { name: "CrossHard", src: "/clientes/crosshard.png" },
+  { name: "NutriTruck", src: "/clientes/nutritruck.png" },
   { name: "Eservice", src: "/clientes/eservice.png" },
   { name: "Haddad", src: "/clientes/haddad.png" },
-  { name: "CrossHard", src: "/clientes/crosshard.png" },
-  // { name: "Cliente 4", src: "/clientes/cliente4.png" },
-  // { name: "Cliente 5", src: "/clientes/cliente5.png" },
+  { name: "JBFenix", src: "/clientes/JBFenix.png" },
+  { name: "Evidence", src: "/clientes/evidence.png" },
   // { name: "Cliente 6", src: "/clientes/cliente6.png" },
 ];
 
