@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const items = [
   {
     title: "Multiplataforma",
@@ -36,8 +38,12 @@ export default function CommunicationSolutions() {
                 <div className="card-body p-4 d-flex flex-column">
                   <h4 className="fw-bold mb-3">{item.title}</h4>
                   <p className="text-muted mb-4">{item.text}</p>
+
                   <div className="mt-auto">
-                    <div className="price-tag">{item.price}</div>
+                    <div className="price-tag mb-3">{item.price}</div>
+                    <Link to="/chat" className="btn btn-outline-primary btn-sm">
+                      Ver detalhes
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -45,7 +51,11 @@ export default function CommunicationSolutions() {
           ))}
         </div>
 
-        <div className="text-center mt-5">
+        <div className="text-center mt-5 d-flex justify-content-center flex-wrap gap-3">
+          <Link to="/chat" className="btn btn-outline-primary btn-lg">
+            Ver planos e soluções
+          </Link>
+
           <a
             href="https://wa.me/5518996076660"
             className="btn btn-primary btn-lg"
