@@ -1,4 +1,6 @@
 import logo from "../assets/images/vba_logo_inline_com-icone.png";
+import { Link } from "react-router-dom"
+
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
@@ -44,6 +46,11 @@ export default function Navbar() {
               <a className="nav-link" href="#clientes">
                 Clientes
               </a>
+            </li>
+            <li className="nav-item">
+              <Link to="/chat" className="nav-link">
+                Chat Empresarial
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contato">
