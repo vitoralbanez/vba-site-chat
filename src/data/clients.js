@@ -5,6 +5,7 @@ import Haddad from "../assets/logos/haddad.png";
 import NutriTruck from "../assets/logos/nutritruck.png";
 import eService from "../assets/logos/eservice.png";
 import Evidence from "../assets/logos/evidence.png";
+import ComercialR2 from "../assets/logos/comercialr2.png";
 
 const clients = [
   { name: "CrossHard", image: CrossHard },
@@ -13,7 +14,9 @@ const clients = [
   { name: "Haddad", image: Haddad },
   { name: "NutriTruck", image: NutriTruck },
   { name: "eService", image: eService },
+  { name: "ComercialR2", image: ComercialR2 },
   { name: "Evidence", image: Evidence },
+  
 ];
 
 export default clients;
