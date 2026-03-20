@@ -5,7 +5,7 @@ import Haddad from "../assets/logos/haddad.png";
 import NutriTruck from "../assets/logos/nutritruck.png";
 import eService from "../assets/logos/eservice.png";
 import Evidence from "../assets/logos/evidence.png";
-import ComercialR2 from "../assets/logos/comercialr2.png";
+import ComercialR2 from "../assets/logos/ComercialR2.png";
 
 const clients = [
   { name: "CrossHard", image: CrossHard },
