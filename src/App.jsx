@@ -1,21 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
-import ChatSolutions from "./pages/ChatSolutions";
+import Partners from "./pages/Partners";
 
 export default function App() {
   return (
-    <>
-      <Navbar />
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/chat" element={<ChatSolutions />} />
-      </Routes>
-
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/parceiros" element={<Partners />} />
+    </Routes>
   );
 }
