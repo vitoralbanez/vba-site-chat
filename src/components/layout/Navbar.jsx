@@ -13,7 +13,7 @@ export default function Navbar() {
 
         <nav className="site-nav">
           <a href="/">Início</a>
-          <a href="/servicos">Serviços</a>
+          <a href="/chat-vba">Chat VBA</a>
           <a href="/parceiros">Parceiros</a>
           <a href="/contato">Contato</a>
         </nav>

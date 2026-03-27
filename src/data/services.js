@@ -1,24 +1,34 @@
-const differentials = [
+const services = [
   {
-    icon: "shield",
-    title: "Estrutura segura",
-    text: "Projetos com foco em estabilidade, proteção e continuidade para o dia a dia da empresa.",
+    title: "Infraestrutura de Redes",
+    description:
+      "Projetos com MikroTik, pfSense, VLANs, VPNs, failover e segmentação de rede para ambientes mais seguros e estáveis.",
   },
   {
-    icon: "phone",
-    title: "Comunicação empresarial",
-    text: "Telefonia, PABX virtual e organização do atendimento para equipes mais produtivas.",
+    title: "Servidores e Virtualização",
+    description:
+      "Implantação e organização de servidores, virtualização, backups e ambientes preparados para aplicações críticas.",
   },
   {
-    icon: "cloud",
-    title: "Cloud e backup",
-    text: "Arquivos, rotinas e ambientes com mais segurança, acesso remoto e recuperação confiável.",
+    title: "Monitoramento e Segurança",
+    description:
+      "Controle de acesso, firewall, logs, proteção de ambiente e visibilidade operacional para reduzir riscos e aumentar confiabilidade.",
   },
   {
-    icon: "workflow",
-    title: "Soluções integradas",
-    text: "Infraestrutura, rede, suporte e automação trabalhando juntos para reduzir falhas e retrabalho.",
+    title: "Automação e Integrações",
+    description:
+      "Soluções sob medida para integrar processos, reduzir tarefas manuais e melhorar a eficiência da operação.",
+  },
+  {
+    title: "Chat VBA",
+    description:
+      "Plataforma de atendimento centralizado para empresas que precisam organizar conversas, equipes e relacionamento com clientes.",
+  },
+  {
+    title: "Consultoria em TI",
+    description:
+      "Avaliação técnica, diagnóstico de ambiente e direcionamento estratégico para empresas que precisam evoluir com segurança.",
   },
 ];
 
-export default differentials;
+export default services;
