@@ -1,6 +1,6 @@
 import comercialR2 from "../assets/partners/ComercialR2.png";
 import crosshard from "../assets/partners/crosshard.png";
-import eService from "../assets/partners/EService.png";
+import eService from "../assets/partners/eservice.png";
 import haddad from "../assets/partners/haddad.png";
 import jbFenix from "../assets/partners/JBFenix.png";
 import evidence from "../assets/partners/evidence.png";
