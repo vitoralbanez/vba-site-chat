@@ -1,23 +1,33 @@
 const services = [
   {
-    title: "Contratos de prestação de serviços",
-    text: "Atendimento recorrente para empresas que precisam de acompanhamento técnico, suporte próximo e continuidade operacional.",
-    icon: "🛠️",
+    title: "Infraestrutura de Redes",
+    description:
+      "Projetos com MikroTik, pfSense, VLANs, VPNs, failover e segmentação de rede para ambientes mais seguros e estáveis.",
   },
   {
-    title: "Servidores e infraestrutura",
-    text: "Implantação, manutenção e gerenciamento de servidores, ambientes corporativos e recursos críticos da operação.",
-    icon: "🖥️",
+    title: "Servidores e Virtualização",
+    description:
+      "Implantação e organização de servidores, virtualização, backups e ambientes preparados para aplicações críticas.",
   },
   {
-    title: "Gerenciamento de rede",
-    text: "Organização de rede, Wi-Fi corporativo, VLAN, roteamento, firewall e estabilidade para o ambiente da empresa.",
-    icon: "🌐",
+    title: "Monitoramento e Segurança",
+    description:
+      "Controle de acesso, firewall, logs, proteção de ambiente e visibilidade operacional para reduzir riscos e aumentar confiabilidade.",
   },
   {
-    title: "Backup e continuidade",
-    text: "Estratégias de backup, retenção, segurança de dados e continuidade operacional.",
-    icon: "💾",
+    title: "Automação e Integrações",
+    description:
+      "Soluções sob medida para integrar processos, reduzir tarefas manuais e melhorar a eficiência da operação.",
+  },
+  {
+    title: "Chat VBA",
+    description:
+      "Plataforma de atendimento centralizado para empresas que precisam organizar conversas, equipes e relacionamento com clientes.",
+  },
+  {
+    title: "Consultoria em TI",
+    description:
+      "Avaliação técnica, diagnóstico de ambiente e direcionamento estratégico para empresas que precisam evoluir com segurança.",
   },
 ];
 

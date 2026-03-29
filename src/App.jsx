@@ -1,21 +1,21 @@
 import { Routes, Route } from "react-router-dom";
-
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
-import ChatSolutions from "./pages/ChatSolutions";
+import Partners from "./pages/Partners";
+import ChatVBA from "./pages/ChatVBA";
+import Contact from "./pages/Contato";
+import Navbar from "./components/layout/Navbar";
 
 export default function App() {
   return (
     <>
       <Navbar />
-
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/chat" element={<ChatSolutions />} />
+        <Route path="/parceiros" element={<Partners />} />
+        <Route path="/chat-vba" element={<ChatVBA />} />
+        <Route path="/contato" element={<Contact />} />
       </Routes>
-
-      <Footer />
     </>
+    
   );
 }
