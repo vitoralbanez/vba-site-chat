@@ -1,76 +1,86 @@
+import comercialR2 from "../assets/partners/ComercialR2.png";
+import crosshard from "../assets/partners/crosshard.png";
+import eService from "../assets/partners/EService.png";
+import haddad from "../assets/partners/haddad.png";
+import jbFenix from "../assets/partners/JBFenix.png";
+import evidence from "../assets/partners/evidence.png";
+import atc from "../assets/partners/ATC.png";
+import nutriTruck from "../assets/partners/nutritruck.png";
+
+
 const partners = [
   {
     id: 1,
     name: "Comercial R2",
-    logo: "src/assets/partners/ComercialR2.png",
+    logo: comercialR2,
     description:
-      "Empresa especializada em EPI e locação de andaimes e armazéns para construção civil, oferecendo soluções seguras, ágeis e eficientes para garantir produtividade e continuidade operacional.",
+      "Empresa especializada na comercialização de Equipamentos de Proteção Individual (EPI) e locação de andaimes e estruturas para construção civil, oferecendo soluções seguras, ágeis e eficientes para garantir produtividade e continuidade operacional.",
     importance: "Operação crítica",
   },
   {
     id: 2,
     name: "CrossHard",
-    logo: "src/assets/partners/crosshard.png",
+    logo: crosshard,
     description:
-      "Projeto focado em presença digital, organização comercial e fortalecimento de marca.",
+      "Uma das maiores e mais estruturadas academias da região, com mais de 1.300 alunos ativos, destacando-se pela qualidade do atendimento, metodologia de treino e ambiente voltado à performance e resultados.",
     importance: "Expansão de marca",
   },
   {
     id: 3,
     name: "EService",
-    logo: "src/assets/partners/EService.png",
+    logo: eService,
     description:
-      "Empresa apoiada com soluções digitais, automação e melhoria de processos.",
+      "Empresa especializada em manutenção industrial, com atuação em equipamentos de usina, painéis elétricos e sistemas de automação, trabalhando com marcas como WEG e Siemens.",
     importance: "Transformação digital",
   },
   {
     id: 4,
     name: "Organização Haddad",
-    logo: "src/assets/partners/haddad.png",
+    logo: haddad,
     description:
-      "Empresa apoiada com soluções digitais, automação e melhoria de processos.",
+      "Empresa funerária de Adamantina e região, filiada à rede Unividas, oferecendo serviços completos com respeito, estrutura e suporte às famílias em momentos delicados.",
     importance: "Transformação digital",
   },
   {
     id: 5,
     name: "JB Fenix",
-    logo: "src/assets/partners/JBFenix.png",
+    logo: jbFenix,
     description:
-      "Empresa apoiada com soluções digitais, automação e melhoria de processos.",
+      "Distribuidora especializada em compressores de ar e componentes para manutenção industrial, atendendo empresas com soluções confiáveis e suporte técnico.",
     importance: "Transformação digital",
   },
   {
     id: 6,
     name: "Evidence GYM",
-    logo: "src/assets/partners/evidence.png",
+    logo: evidence,
     description:
-      "Empresa apoiada com soluções digitais, automação e melhoria de processos.",
+      "Academia focada em saúde, bem-estar e qualidade de vida, oferecendo estrutura completa para treinos e acompanhamento dos alunos.",
     importance: "Transformação digital",
   },
   {
     id: 7,
-    name: "ATC - Adamantina Tenis Clube",
-    logo: "src/assets/partners/ATC.png",
+    name: "ATC - Adamantina Tênis Clube",
+    logo: atc,
     description:
-      "Empresa apoiada com soluções digitais, automação e melhoria de processos.",
+      "Clube tradicional da cidade de Adamantina, com infraestrutura completa de lazer, incluindo piscinas, quadras de beach tênis, tênis e espaços recreativos para toda a família.",
     importance: "Transformação digital",
   },
   {
     id: 8,
     name: "Nutri Truck",
-    logo: "src/assets/partners/nutritruck.png",
+    logo: nutriTruck,
     description:
-      "Empresa apoiada com soluções digitais, automação e melhoria de processos.",
+      "Food truck localizado dentro da CrossHard, focado em alimentação saudável, prática e balanceada, sem uso de alimentos ultraprocessados.",
     importance: "Transformação digital",
   },
-  {
-    id: 9,
-    name: "Nutricionista Lilian Christianini",
-    logo: "src/assets/partners/lilian.png",
-    description:
-      "Empresa apoiada com soluções digitais, automação e melhoria de processos.",
-    importance: "Transformação digital",
-  },
+  //{
+  //  id: 9,
+  //  name: "Nutricionista Lilian Christianini",
+  //  logo: lilian,
+    //description:
+   //   "Nutricionista especializada em performance esportiva, com atendimento dentro da CrossHard, auxiliando alunos na conquista de resultados através da alimentação estratégica.",
+  //  importance: "Transformação digital",
+  //},
 ];
 
 export default partners;
