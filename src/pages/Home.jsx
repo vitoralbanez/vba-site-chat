@@ -12,7 +12,7 @@ import FinalCTA from "../components/home/FinalCTA";
 export default function Home() {
   return (
     <>
-      <Navbar />
+     
       <main className="home-v2">
         <HeroV2 />
         <TrustStrip />

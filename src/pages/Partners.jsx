@@ -8,7 +8,7 @@ import ContactCTA from "../components/home/FinalCTA";
 export default function PartnersPage() {
   return (
     <>
-      <Navbar />
+     
       <PageHero
         kicker="PARCEIROS"
         title="Empresas que caminham junto com a VBA Solutions"
