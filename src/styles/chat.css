@@ -241,7 +241,7 @@
   .card-soft {
     padding: 24px;
   }
-
+}
   .pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -296,7 +296,6 @@
 .pricing-features li + li {
   margin-top: 6px;
 }
-
 @media (max-width: 980px) {
   .pricing-grid {
     grid-template-columns: 1fr;
@@ -305,5 +304,4 @@
   .pricing-card--highlight {
     transform: none;
   }
-}
 }
