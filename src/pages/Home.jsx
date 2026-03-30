@@ -1,6 +1,3 @@
-import Navbar from "../components/layout/Navbar";
-import Footer from "../components/layout/Footer";
-
 import HeroV2 from "../components/home/HeroV2";
 import TrustStrip from "../components/home/TrustStrip";
 import Differentials from "../components/home/Differentials";
@@ -11,18 +8,14 @@ import FinalCTA from "../components/home/FinalCTA";
 
 export default function Home() {
   return (
-    <>
-     
-      <main className="home-v2">
-        <HeroV2 />
-        <TrustStrip />
-        <Differentials />
-        <ProblemsSolution />
-        <ServicesGrid /> 
-        <ProcessSteps /> 
-        <FinalCTA />
-      </main>
-      <Footer />
-    </>
+    <main className="home-v2">
+      <HeroV2 />
+      <TrustStrip />
+      <Differentials />
+      <ProblemsSolution />
+      <ServicesGrid />
+      <ProcessSteps />
+      <FinalCTA />
+    </main>
   );
 }

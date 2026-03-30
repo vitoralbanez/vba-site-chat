@@ -19,14 +19,20 @@ export default function PartnersSection() {
           {partners.map((partner) => (
             <article className="partner-card" key={partner.name}>
               <div className="partner-logo-wrap">
-                <img src={partner.logo} alt={partner.name} className="partner-logo" />
+                <img
+                  src={partner.logo}
+                  alt={partner.name}
+                  className="partner-logo"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
 
               <div className="partner-card-content">
                 <h3>{partner.name}</h3>
                 <p>{partner.description}</p>
-                {partner.segment && (
-                  <span className="partner-tag">{partner.segment}</span>
+                {partner.importance && (
+                  <span className="partner-tag">{partner.importance}</span>
                 )}
               </div>
             </article>

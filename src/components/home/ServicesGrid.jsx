@@ -1,8 +1,8 @@
 import {
+  Blocks,
   Phone,
   Network,
-  Cloud,
-  HardDrive,
+  Shield,
   Server,
   Headset,
   ChevronRight,
@@ -12,8 +12,8 @@ import services from "../../data/services";
 const iconMap = {
   phone: Phone,
   network: Network,
-  cloud: Cloud,
-  backup: HardDrive,
+  shield: Shield,
+  workflow: Blocks,
   server: Server,
   support: Headset,
 };
@@ -32,16 +32,16 @@ export default function ServicesGrid() {
         </div>
 
         <div className="services-grid">
-          {services.map((service, index) => {
+          {services.map((service) => {
             const Icon = iconMap[service.icon];
 
             return (
-              <article className="service-card" key={index}>
+              <article className="service-card" key={service.title}>
                 <div className="service-icon">
                   {Icon ? <Icon size={24} /> : <span>•</span>}
                 </div>
                 <h3>{service.title}</h3>
-                <p>{service.text}</p>
+                <p>{service.description}</p>
                 <a
                   href="https://wa.me/5518996076660"
                   target="_blank"
