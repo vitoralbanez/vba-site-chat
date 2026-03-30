@@ -306,6 +306,11 @@ p {
   color: var(--color-primary);
 }
 
+.site-nav a.is-active {
+  color: var(--color-primary);
+}
+
+.site-nav a.is-active::after,
 .site-nav a:hover::after {
   transform: scaleX(1);
 }
@@ -818,6 +823,11 @@ p {
   margin-bottom: 32px;
 }
 
+.site-footer__meta {
+  display: grid;
+  gap: 24px;
+}
+
 .site-footer h3,
 .site-footer h4 {
   margin-bottom: 12px;
@@ -827,6 +837,23 @@ p {
 .site-footer p {
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.78);
+}
+
+.site-footer__links,
+.site-footer__contacts {
+  display: grid;
+  gap: 10px;
+}
+
+.site-footer__links a,
+.site-footer__contacts a {
+  color: rgba(255, 255, 255, 0.78);
+  transition: color var(--transition-default);
+}
+
+.site-footer__links a:hover,
+.site-footer__contacts a:hover {
+  color: #fff;
 }
 
 .site-footer__bottom {

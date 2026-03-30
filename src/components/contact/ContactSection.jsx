@@ -53,7 +53,7 @@ export default function ContactSection() {
 
             <div className="contact-v2__actions">
               <a
-                className="btn btn-primary"
+                className="btn btn-accent"
                 href="https://wa.me/5518996076660"
                 target="_blank"
                 rel="noreferrer"
@@ -62,7 +62,7 @@ export default function ContactSection() {
               </a>
 
               <a
-                className="btn btn-secondary"
+                className="btn btn-outline"
                 href="mailto:vitor.albanez@vbasolutions.com.br"
               >
                 Enviar e-mail

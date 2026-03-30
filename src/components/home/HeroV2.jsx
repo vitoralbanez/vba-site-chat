@@ -27,7 +27,7 @@ export default function HeroV2() {
               Falar no WhatsApp
             </a>
 
-            <a href="/servicos" className="btn btn-outline">
+            <a href="#servicos" className="btn btn-outline">
               Conhecer serviços
             </a>
           </div>
@@ -51,7 +51,7 @@ export default function HeroV2() {
             </p>
           </article>
 
-          <article className="hero-card hero-card">
+          <article className="hero-card">
             <div className="hero-card__icon">
               <MessageSquare size={24} />
             </div>

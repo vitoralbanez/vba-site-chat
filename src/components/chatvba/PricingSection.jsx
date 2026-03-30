@@ -70,7 +70,7 @@ export default function PricingSection() {
               </ul>
 
               <a
-                className="btn btn-primary"
+                className="btn btn-accent"
                 href="https://wa.me/5518996076660"
                 target="_blank"
                 rel="noreferrer"
