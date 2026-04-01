@@ -3,7 +3,7 @@ import crosshard from "../assets/partners/crosshard.png";
 import eService from "../assets/partners/eservice.png";
 import haddad from "../assets/partners/haddad.png";
 import jbFenix from "../assets/partners/JBFenix.png";
-import evidence from "../assets/partners/evidence.png";
+
 import atc from "../assets/partners/ATC.png";
 import nutriTruck from "../assets/partners/nutritruck.png";
 
@@ -51,14 +51,6 @@ const partners = [
   },
   {
     id: 6,
-    name: "Evidence GYM",
-    logo: evidence,
-    description:
-      "Academia focada em saúde, bem-estar e qualidade de vida, oferecendo estrutura completa para treinos e acompanhamento dos alunos.",
-    importance: "Transformação digital",
-  },
-  {
-    id: 7,
     name: "ATC - Adamantina Tênis Clube",
     logo: atc,
     description:
@@ -66,7 +58,7 @@ const partners = [
     importance: "Transformação digital",
   },
   {
-    id: 8,
+    id: 7,
     name: "Nutri Truck",
     logo: nutriTruck,
     description:
@@ -74,7 +66,7 @@ const partners = [
     importance: "Transformação digital",
   },
   //{
-  //  id: 9,
+  //  id: 8,
   //  name: "Nutricionista Lilian Christianini",
   //  logo: lilian,
     //description:
