@@ -3,8 +3,6 @@ import crosshard from "../assets/partners/crosshard.png";
 import eService from "../assets/partners/eservice.png";
 import haddad from "../assets/partners/haddad.png";
 import jbFenix from "../assets/partners/JBFenix.png";
-
-import atc from "../assets/partners/ATC.png";
 import nutriTruck from "../assets/partners/nutritruck.png";
 
 
@@ -49,14 +47,14 @@ const partners = [
       "Distribuidora especializada em compressores de ar e componentes para manutenção industrial, atendendo empresas com soluções confiáveis e suporte técnico.",
     importance: "Transformação digital",
   },
-  {
+  /*{
     id: 6,
     name: "ATC - Adamantina Tênis Clube",
     logo: atc,
     description:
       "Clube tradicional da cidade de Adamantina, com infraestrutura completa de lazer, incluindo piscinas, quadras de beach tênis, tênis e espaços recreativos para toda a família.",
     importance: "Transformação digital",
-  },
+  },*/
   {
     id: 7,
     name: "Nutri Truck",
